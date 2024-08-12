@@ -1,0 +1,14 @@
+<svg width="56.000000" height="56.000000" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip14_2146">
+			<rect id="Category-Camera" rx="-0.500000" width="55.000000" height="55.000000" transform="translate(0.500000 0.500000)" fill="black" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip14_2146)">
+		<path id="Vector" d="M14 16.33C15.23 16.33 16.42 15.84 17.29 14.96C18.17 14.09 18.66 12.9 18.66 11.66C18.66 11.04 18.91 10.45 19.35 10.01C19.78 9.57 20.38 9.33 21 9.33L35 9.33C35.61 9.33 36.21 9.57 36.64 10.01C37.08 10.45 37.33 11.04 37.33 11.66C37.33 12.9 37.82 14.09 38.7 14.96C39.57 15.84 40.76 16.33 42 16.33L44.33 16.33C45.57 16.33 46.75 16.82 47.63 17.7C48.5 18.57 49 19.76 49 21L49 42C49 43.23 48.5 44.42 47.63 45.29C46.75 46.17 45.57 46.66 44.33 46.66L11.66 46.66C10.42 46.66 9.24 46.17 8.36 45.29C7.49 44.42 7 43.23 7 42L7 21C7 19.76 7.49 18.57 8.36 17.7C9.24 16.82 10.42 16.33 11.66 16.33L14 16.33Z" stroke="black" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M28 37.33C24.13 37.33 21 34.19 21 30.33C21 26.46 24.13 23.33 28 23.33C31.86 23.33 35 26.46 35 30.33C35 34.19 31.86 37.33 28 37.33Z" stroke="black" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+	</g>
+</svg>

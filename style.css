@@ -272,7 +272,7 @@ letter-spacing: 0%;
 text-align: left;
 
 }
-#section_red{
+.section_red{
     width: 20px;
     height: 40px;
     border-radius: 4px;
@@ -494,4 +494,122 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 padding: 16px 48px;
+}
+
+/* section_2 */
+.section_2{
+    height: 313px;
+    /* border: 2px solid red; */
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.catogories{
+    width: 100%;
+    height: 108px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items:end ;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+.catogories>.left{
+    width: 379px;
+    height: 108px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   /* border: 2px solid blue; */
+}
+.catogories>.left>.text{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 126px;
+    height: 40px;
+}
+.catogories>.left>.text>p{
+color: rgb(219, 68, 68);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.catogories>.left>p{
+    /* Heading/36PX SemiBold */
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 4%;
+text-align: left;
+}
+
+.section_2_icons{
+    /* border: 2px solid red; */
+    width: 100px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section_2_icons>img{
+    padding: 15px 15px;
+    /* width: 46px;
+    height: 46px; */
+    border-radius: 50%;
+    background-color: #f5f5f5;
+}
+
+
+/*catogories_cards  */
+.catogories_cards{
+    width: 100%;
+    height: 145px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+.catogorias_card{
+    width: 170px;
+    height: 145px;
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 4px;
+display: flex;
+flex-direction: column  ;
+align-items: center;
+justify-content: center;
+gap :16px;
+}
+.catogorias_card>img{
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.catogorias_card a{
+color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.catogorias_card:hover
+{ 
+    background-color: red;
+}
+.catogorias_card:hover>.catogorias_card a{
+    color: white;
+
 }
