@@ -363,7 +363,7 @@ margin: 4px 0px;
 .section_end>.cards{
     width: 270px;
     height: 350px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
