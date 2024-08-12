@@ -578,7 +578,7 @@ text-align: left;
     justify-content: space-between;
     transition: 0.3s;
 }
-.catogorias_card{
+.catogories_card{
     width: 170px;
     height: 145px;
 border: 1px solid rgba(0, 0, 0, 0.3);
@@ -589,14 +589,14 @@ align-items: center;
 justify-content: center;
 gap :16px;
 }
-.catogorias_card>img{
+.catogories_card>img{
     width: 56px;
     height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.catogorias_card a{
+.catogories_card a{
 color: rgb(0, 0, 0);
 font-family: Poppins;
 font-size: 16px;
@@ -605,7 +605,7 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 }
-.catogorias_card:hover
+.catogories_card:hover
 { 
     background-color: red;
 }
