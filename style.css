@@ -37,10 +37,6 @@ img {
 }
 
 /* header */
-header {
-    /* background-color: white; */
-
-}
 
 .header {
     height: 48px;
@@ -244,9 +240,7 @@ header {
 }
 
 /* section_1 */
-section {
-    /* background-color: white; */
-}
+
 
 .sectoin_header {
     display: flex;
@@ -265,8 +259,6 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: end;
-
-    /* margin-bottom: 40px; */
 }
 
 .times>.text {
@@ -517,7 +509,6 @@ section {
 /* button_productos */
 
 .button_productos {
-    /* margin: auto; */
     border-radius: 4px;
     background: rgb(219, 68, 68);
 }
@@ -534,7 +525,6 @@ section {
 }
 
 .button_productos p {
-
     color: rgb(250, 250, 250);
     font-family: Poppins;
     font-size: 16px;
