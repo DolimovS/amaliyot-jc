@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     flex-direction: column;
     background-color: gray;
     overflow:auto;
+    background-color: white;
 }
 
 .container {
@@ -36,7 +38,7 @@ img {
 
 /* header */
 header {
-    background-color: white;
+    /* background-color: white; */
 
 }
 
@@ -243,7 +245,7 @@ header {
 
 /* section_1 */
 section {
-    background-color: white;
+    /* background-color: white; */
 }
 
 .sectoin_header {
@@ -264,7 +266,7 @@ section {
     justify-content: space-between;
     align-items: end;
 
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .times>.text {
@@ -521,8 +523,14 @@ section {
 }
 
 .section_end1 {
-    padding: 60px 475px;
-    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.section_1{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 60px;
 }
 
 .button_productos p {
@@ -960,4 +968,167 @@ border-radius: 4px;
 width: 234px;
 height: 56px;
 background: rgb(219, 68, 68);
+}
+
+/* section_6 */
+.section_6{
+    height: 768px;
+    margin-top: 140px;
+    /* transform: translateY(140px); */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.section_6 .bottom{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_6 .bottom .left{
+    width: 570px;
+    height: 100%;
+    /* border: 2px solid blue; */
+    background: url(./img/img_1.png) no-repeat bottom center;
+    background-size: 511px 511px;
+    background-color: black;
+}
+
+.section_6 .bottom .right{
+    width: 570px;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom .right .right_top{
+    width: 570px;
+height: 284px;
+border: 2px solid black;
+background: url(./img/img_2.png) no-repeat right center;
+background-size: 432px 286px;
+background-color: rgb(13,13,13);
+}
+
+.bottom .right .right_bottom{
+    width: 570px;
+height: 284px;
+/* border: 2px solid green; */
+display: flex;
+justify-content: space-between;
+}
+
+.right_bottom .card_shop:nth-child(1){
+    background: url(./img/img_3.png) no-repeat center;
+    background-size: 190px 211px;
+    background-color: black;
+} 
+
+.right_bottom .card_shop:nth-child(2){
+    background: url(./img/img_4.png) no-repeat center;
+    background-size: 201px 203px;
+    background-color: black;
+}
+.card_shop{
+    width: 270px;
+height: 284px;
+/* border: 2px solid red; */
+}
+
+.img_display{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start; 
+    /* border: 2px solid red; */
+    gap: 16px;
+    padding: 0 0 24px 24px;
+    text-align: left;
+}
+
+.section_6 .bottom h1{
+    /* Heading/24PX SemiBold */
+color: rgb(250, 250, 250);
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 3%;
+}
+
+.section_6 .bottom p{
+    /* Title/14PX Regular */
+color: rgb(250, 250, 250);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+}
+
+.section_6 .bottom a{
+    /* Title/16PX Medium */
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
+.bottom a{
+    width: 81px;
+    height: 24px;
+    border-bottom: 2px solid rgb(255, 255, 255) ;
+}
+
+/* section_7 */
+.section_7{
+    width: 943px;
+height: 161px;
+/* border: 2px solid red; */
+margin: 140px auto;
+display: flex;
+justify-content: space-between;
+
+}
+.section_7>.cards_7{
+    width: 262px;
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards_7 h1{
+color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.cards_7 p{
+    /* Title/14PX Regular */
+color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.cards_7 img{
+    width: 80px;
+    height: 80px;
 }
