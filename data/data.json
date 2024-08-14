@@ -1,57 +1,30 @@
 [
     {
-        "name":"IPS LCD Gaming Monitor",
-        "img":"./img/unnamed.png",
-        "chegirma":"100",
-        "summa":"250"
+        "id": 1,
+        "name":"HAVIT HV-G92 Gamepad",
+        "img":"./img/Frame 611.png",
+        "chegirma":"160",
+        "summa":"$120"
     },
     {
-        "name":"IPS LCD Gaming Monitor",
-        "img":"./img/unnamed.png",
-        "chegirma":"100",
-        "summa":"250"
+        "id": 2,
+        "name":"AK-900 Wired Keyboard",
+        "img":"./img/Frame 612.png",
+        "chegirma":"1100",
+        "summa":"$960"
     },
     {
+        "id": 3,
         "name":"IPS LCD Gaming Monitor",
-        "img":"./img/unnamed.png",
-        "chegirma":"100",
-        "summa":"250"
+        "img":"./img/Frame 613.png",
+        "chegirma":"400",
+        "summa":"$370"
     },
     {
-        "name":"IPS LCD Gaming Monitor",
-        "img":"./img/unnamed.png",
-        "chegirma":"100",
-        "summa":"250"
-    },
-    {
-        "name":"IPS LCD Gaming Monitor",
-        "img":"./img/unnamed.png",
-        "chegirma":"100",
-        "summa":"250"
-    },
-    {
-        "name":"IPS LCD Gaming Monitor",
-        "img":"./img/unnamed.png",
-        "chegirma":"100",
-        "summa":"250"
-    },
-    {
-        "name":"IPS LCD Gaming Monitor",
-        "img":"./img/unnamed.png",
-        "chegirma":"100",
-        "summa":"250"
-    },
-    {
-        "name":"IPS LCD Gaming Monitor",
-        "img":"./img/unnamed.png",
-        "chegirma":"100",
-        "summa":"250"
-    },
-
-    {
-        "name":"IPS LCD Gaming Monitor",
-        "img":"./img/unnamed.png",
-        "chegirma":"100",
-        "summa":"250"
-    }
+        "id": 4,
+        "name":"S-Series Comfort Chair ",
+        "img":"./img/Frame 614.png",
+        "chegirma":"500",
+        "summa":"$375"
+    }   
 ]
