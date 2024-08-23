@@ -663,11 +663,7 @@ header{
 .catogories_card:hover {
     background-color: red;
 }
-header,
-section,
-footer{
-    display: flex;
-}
+
 
 /*  
     Modal 
