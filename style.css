@@ -663,19 +663,26 @@ header{
 .catogories_card:hover {
     background-color: red;
 }
+header,
+section,
+footer{
+    display: flex;
+}
 
 /*  
     Modal 
 */
 .modal_wrapper {
-    position: absolute;
+    position: fixed; /* Fixed holatiga o'zgartiramiz */
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100vh;
     background-color: rgb(219, 68, 68);
     /* transform: translateX(+100%); */
     display: none;
-    transition: 2s;
-    overflow: scroll;
+    overflow:auto;
+    z-index: 1000;
 }
 
 .modal {
