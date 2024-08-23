@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./login.css">
 </head>
 
 <body>
     <header class="">
+
         <div class="header  container ">
             <div class="text">
                 <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
@@ -20,8 +22,8 @@
                 <option value="">ENG</option>
                 <option value="">RUS</option>
             </select>
-
         </div>
+
         <nav>
             <div class="home_nav  container">
                 <div class="left">
@@ -36,8 +38,57 @@
                 </div>
             </div>
         </nav>
+
         <hr class="container">
-        <div class="hero container">
+
+        <div class="hidden_1 signup ">
+            <div class="img">
+                <img src="./img/sing_up.jpg" alt="">
+            </div>
+            <div class="account">
+                <div class="account_text">
+                    <h1>Create an account</h1>
+                    <hp>Enter your details below</hp>
+                </div>
+                <form class="signup_form" action="">
+                    <input id="signup_name" placeholder="Name" type="text">
+                    <input id="signup_email" placeholder="email" type="email">
+                    <input id="signup_pasword" placeholder="password" type="password">
+                    <p class="ogohlantirish" >Malumotni toliq kiritmadingiz...</p>
+                    <button>Create Account</button>
+                </form>
+                <div class="links">
+                    <div class="google">
+                        <img src="./svg/google.svg" alt="">
+                        <a href="">Sign up with Google</a>
+                    </div>
+                    <p>Already have account? <button>Log in</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden_1 login_1 ">
+            <div class="img">
+                <img src="./img/sing_up.jpg" alt="">
+            </div>
+            <div class="login">
+                <div class="login_text">
+                    <h1>Log in to Exclusive</h1>
+                    <hp>Enter your details below</hp>
+                </div>
+                <form class="login_form" action="">
+                    <input id="login_email" placeholder="email" type="email">
+                    <input id="login_pasword" placeholder="password" type="password">
+                    <p class="ogohlantirish_1" >Email yoki password xato...</p>
+                    <div class="login_end">
+                        <button class="login_button">Log In</button>
+                        <a href="#">Forget Password?</a>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="  hero  container ">
             <div class="links">
                 <a href="#">Woman’s Fashion</a>
                 <a href="#">Men’s Fashion</a>
@@ -66,7 +117,8 @@
     </header>
 
 
-    <section>
+    <section class="">
+    
         <div class="section_1 container">
             <div class="sectoin_header">
                 <div class="times">
@@ -317,6 +369,57 @@
             </div>
     </section>
 
+
+    <footer>
+        <div class="footer  container">
+            <div class="footer_top">
+
+                <div class="footer_exclusive footer_colum">
+                    <h1>Exclusive</h1>
+                    <a href="">Subscribe</a>
+                    <a href="">Get 10% off your first order</a>
+                    <button>Enter your email</button>
+                </div>
+
+                <div class="footer_support footer_colum">
+                    <h1>Support</h1>
+                    <a href="">111 Bijoy sarani, Dhaka, <br>
+                    DH 1515, Bangladesh.</a>
+                    <a href="">exclusive@gmail.com</a>
+                    <a href="">+88015-88888-9999</a>
+                </div>
+
+                <div class="footer_account footer_colum">
+                    <h1>Account</h1>
+                    <a href="">My Account</a>
+                    <a type="button" id="register" >Login / Register</a>
+                    <a href="">Cart</a>
+                    <a href="">Wishlist</a>
+                    <a href="">Shop</a>
+                </div>
+
+                <div class="footer_link footer_colum">
+                    <h1>Quick Link</h1>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms Of Use</a>
+                    <a href="">FAQ</a>
+                    <a href="">Contact</a>
+                </div>
+
+                <div class="footer_app footer_colum">
+                    <h1>Download App</h1>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <a href="">Copyright Rimel 2022. All right reserved</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
     <div class="modal_wrapper">
         <h2>Cart</h2>
         <div id="cart_items">
@@ -324,7 +427,6 @@
         </div>
         <h3>Total: <span id="total_price">0</span> sum</h3>
     </div>
-   
 </body>
 <script src="./js.js"></script>
 

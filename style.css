@@ -11,6 +11,8 @@ body {
     background-color: gray;
     overflow:auto;
     background-color: white;
+    align-items: center;
+    cursor: default;
 }
 
 .container {
@@ -21,6 +23,8 @@ body {
     /* border: 2px solid red; */
     background-color: white;
 }
+
+
 
 a {
     text-decoration: none;
@@ -37,7 +41,10 @@ img {
 }
 
 /* header */
+header{
+    max-width: 1440px;
 
+}
 .header {
     height: 48px;
     background-color: black;
@@ -665,7 +672,8 @@ img {
     width: 100%;
     height: 100vh;
     background-color: rgb(219, 68, 68);
-    transform: translateX(+100%);
+    /* transform: translateX(+100%); */
+    display: none;
     transition: 2s;
     overflow: scroll;
 }
@@ -1121,4 +1129,80 @@ text-align: center;
 .cards_7 img{
     width: 80px;
     height: 80px;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    width: 1440px;
+}
+.footer{
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    background-color: black;
+}
+
+.footer_top{
+    margin: 80px 0 60px 0;
+    width: 1170px;
+    /* height: 236px; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+
+.footer_colum{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer_colum> h1{
+color: rgb(250, 250, 250);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer_colum>a{
+color: rgb(250, 250, 250);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.footer_app{
+    width: 168px;
+    height: 210px;
+    border: 2px solid red;
+}
+
+.footer_bottom{
+    height: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.footer_bottom>a{
+    /* margin: auto; */
+        /* Title/16PX Regular */
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.hidden_1{
+    display: none;
 }
