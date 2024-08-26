@@ -7,17 +7,11 @@ const basket = document.querySelector(".basket");
 const modalWrapper = document.querySelector(".modal_wrapper");
 const cartItems = document.getElementById("cart_items");
 const totalPriceElement = document.getElementById("total_price");
+const dropdown=document.querySelector(".dropdown")
+const login_icons=document.querySelector(".login_icons")
 const API = "./data/data.json";
 
-const section=document.querySelector("section");
-const login_1=document.querySelector(".login_1");
-const signup=document.querySelector(".signup")
-const hero=document.querySelector(".hero");
-const register=document.querySelector("#register")
-const signup_form=document.querySelector(".signup_form")
-const login_form=document.querySelector(".login_form")
-const ogohlantirish=document.querySelector(".ogohlantirish")
-const ogohlantirish1=document.querySelector(".ogohlantirish_1")
+
 
 function getDatta() {
   let vaqt = new Date();
@@ -113,51 +107,27 @@ function updateCart() {
   totalPriceElement.textContent = total; // Umumiy narxni yangilash
 }
 
-register.addEventListener("click",(e)=>{
-  e.preventDefault();
-  section.classList.add('hidden_1');
-  hero.classList.add('hidden_1');
-  signup.classList.remove('hidden_1');
-})
 
-signup_form.addEventListener("submit",(e)=>{
-  e.preventDefault();
-  const signupName=signup_form.signup_name.value.trim();
-  const signupEmail=signup_form.signup_email.value.trim();
-  const signupPasword=signup_form.signup_pasword.value.trim();
-  
-  if(signupName=="samandar" && signupEmail=="dolimov@gmail.com" && signupPasword==12345678){
-    console.log(signupName,signupEmail,signupPasword);
-    signup.classList.add('hidden_1');
-    login_1.classList.remove('hidden_1');
-  }
-  else{
-    // alert("xato")
-    ogohlantirish.style.display="block"
-    setInterval(()=>{
-      ogohlantirish.style.display="none"
-    },3000)
-  }
-  signup_form.reset()
-})
+// Bosilganda dropdownni ko'rsatish
+login_icons.addEventListener('click', (e) => {
+  dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+  e.stopPropagation(); // Click eventni boshqa elementlarga tarqatmaslik uchun
+});
 
-login_form.addEventListener("submit",(e)=>{
-  e.preventDefault()
-  const loginEmail=login_form.login_email.value.trim()
-  const loginPasword=login_form.login_pasword.value.trim()
-  if(loginEmail=="dolimov@gmail.com" && loginPasword==12345678){
-    section.classList.remove('hidden_1');
-    hero.classList.remove('hidden_1');
-    login_1.classList.add('hidden_1');
+// Dropdown yoki fa-user ustidan tashqariga bosilganda dropdownni yashirish
+document.addEventListener('click', (e) => {
+  if (!login_icons.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.style.display = 'none';
   }
-  else{
-    // alert("xato")
-    ogohlantirish1.style.display="block"
-    setInterval(()=>{
-      ogohlantirish1.style.display="none"
-    },3000)
-  }
-  login_form.reset()
-})
+});
+
+// faUser.addEventListener("click",()=>{
+//   dropdown.style.remove("hidden_1")
+// })
+
+// function drop(){
+//   dropdown.style.display="block";
+// }
+
 
 
