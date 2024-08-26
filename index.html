@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -26,67 +27,53 @@
 
         <nav>
             <div class="home_nav  container">
-                <div class="left">
+               <div class="top container ">
+                <div class="left_1">
                     <p>Exclusive</p>
+                   <div class="home_links">
+                    <a href="#">Home</a>
                     <a href="#">Contact</a>
+                    <a href="#">About</a>
+                    <a href="./login/singup.html">Sing Up</a>
+                   </div>
                 </div>
                 <div class="right">
                     <!-- <button class="nav_input">What are you looking for?</button> -->
                     <input class="nav_input" placeholder="What are you looking for?" type="search">
                     <img src="./svg/love.svg" alt="">
                     <img class="basket" src="./svg/karzinka.svg" alt="">
+                    <div class="login_icons">
+                        <i onclick="drop()" class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+               </div>
+                <div class=" dropdown">
+                    <div class="dropdown_text">
+                        <i class="fa-regular fa-user"></i>
+                        <a href="">Manage My Account</a>
+                    </div>
+                    <div class="dropdown_text">
+                        <i class="fa-regular fa-user"></i>
+                        <a href="">My Order</a>
+                    </div>
+                    <div class="dropdown_text">
+                        <i class="fa-solid fa-xmark"></i>
+                        <a href="">My Cancellations</a>
+                    </div>
+                    <div class="dropdown_text">
+                        <i class="fa-regular fa-user"></i>
+                        <a href="">My Reviews</a>
+                    </div>
+                    <div class="dropdown_text">
+                        <i class="fa-regular fa-user"></i>
+                        <a href="">Logout</a>
+                    </div>
                 </div>
             </div>
+            <!-- <div class="dropdown"></div> -->
         </nav>
 
         <hr class="container">
-
-        <div class="hidden_1 signup ">
-            <div class="img">
-                <img src="./img/sing_up.jpg" alt="">
-            </div>
-            <div class="account">
-                <div class="account_text">
-                    <h1>Create an account</h1>
-                    <hp>Enter your details below</hp>
-                </div>
-                <form class="signup_form" action="">
-                    <input id="signup_name" placeholder="Name" type="text">
-                    <input id="signup_email" placeholder="email" type="email">
-                    <input id="signup_pasword" placeholder="password" type="password">
-                    <p class="ogohlantirish" >Malumotni toliq kiritmadingiz...</p>
-                    <button>Create Account</button>
-                </form>
-                <div class="links">
-                    <div class="google">
-                        <img src="./svg/google.svg" alt="">
-                        <a href="">Sign up with Google</a>
-                    </div>
-                    <p>Already have account? <button>Log in</button></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="hidden_1 login_1 ">
-            <div class="img">
-                <img src="./img/sing_up.jpg" alt="">
-            </div>
-            <div class="login">
-                <div class="login_text">
-                    <h1>Log in to Exclusive</h1>
-                    <hp>Enter your details below</hp>
-                </div>
-                <form class="login_form" action="">
-                    <input id="login_email" placeholder="email" type="email">
-                    <input id="login_pasword" placeholder="password" type="password">
-                    <p class="ogohlantirish_1" >Email yoki password xato...</p>
-                    <div class="login_end">
-                        <button class="login_button">Log In</button>
-                        <a href="#">Forget Password?</a>
-                        </div>
-                </form>
-            </div>
-        </div>
 
         <div class="  hero  container ">
             <div class="links">
@@ -392,7 +379,7 @@
                 <div class="footer_account footer_colum">
                     <h1>Account</h1>
                     <a href="">My Account</a>
-                    <a type="button" id="register" >Login / Register</a>
+                    <a href="./login/singup.html" >Login / Register</a>
                     <a href="">Cart</a>
                     <a href="">Wishlist</a>
                     <a href="">Shop</a>
